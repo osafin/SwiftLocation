@@ -10,5 +10,5 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
   s.frameworks            = "CoreLocation", "MapKit", "Foundation"
   s.source_files = 'Sources/**/*.swift'
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.2' }
 end
